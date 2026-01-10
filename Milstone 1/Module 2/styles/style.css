@@ -1,0 +1,63 @@
+.header{
+    height: 300px;
+    /* background-image: url(anime\ git\ profile.jpeg); */
+    /* background-image: url("../img/Blue\ Pixel\ Anime\ Illustration\ Avatar.png"); */
+    background-image: url('');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: auto; */
+    /* background-size: contain; */
+    
+
+}
+.blog{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: aqua;
+    border: 20px solid tomato;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px;
+}
+ .blog_third{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: aqua;
+    border: 20px solid tomato;
+    border-radius: 10px;
+    padding: 20px;
+    /* display: none; */
+    /* visibility: hidden; */
+    box-shadow: 10px 10px 15px red;
+ }
+
+.add{
+    border: 5px dashed blue;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: lightyellow;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif ;
+    text-decoration: overline;
+    text-decoration: underline;
+}
+#id{
+    color: blue;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border:  2px solid ;
+    /* display: block; */
+    display: inline-block;
+    height: 400px;
+}

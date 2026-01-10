@@ -1,0 +1,41 @@
+nav li >a{
+    text-decoration: none;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 200px;
+    
+}
+nav{
+    border: tomato 1px solid;
+    padding: 4px ;
+    background-color: #f87171; /* light red */
+    border-radius: 2px;
+}
+nav > ul > li{
+    display: inline;
+    margin: 10px;
+}
+.button{
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #2563eb; /* blue */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+.button:hover{
+    background-color: black;
+    transform: translate(-2px);
+}
+.button:active{
+    transform: scale(0.96);
+}
+footer{
+    text-align: center;
+    margin: top;
+}
+#sea{
+    font-weight: bold;
+}
