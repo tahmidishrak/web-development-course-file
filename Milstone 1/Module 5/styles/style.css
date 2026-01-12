@@ -1,0 +1,27 @@
+.parent{
+    padding: 20px;
+    background-color: rgb(192, 189, 189);
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    height: 309px;
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+
+.child{
+    border: 1px solid black;
+    background: lightblue;
+    padding: 19px;
+    font-size: 18px;
+}
+    
