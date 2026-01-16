@@ -1,12 +1,25 @@
+/* fonts styles */
 .open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
     "wdth" 100;
-    background-color: #7a7a7a;
 }
+.dancing-script-normal{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* shared styles */
 .text-primary{
     color: rgba(253, 110, 10, 1);
@@ -19,10 +32,10 @@
     background-color: rgba(253, 110, 10, 1);
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
-    padding: 17px 28px;
+    padding: 16px 27px;
     border-radius: 5px;
     font-size: 20px;
-    border: 1px solid black;
+    border: none;
 }
 .btn-primary:hover{
     box-shadow: black 2px 2px 10px;
@@ -37,8 +50,9 @@ nav{
     margin: 0 50px;
 }
 .nav-title{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: "Great Vibes", cursive;
 }
 nav ul{
     display: flex;
@@ -47,8 +61,52 @@ nav ul{
 }
 nav ul li {
     list-style: none;
+    font-family: "Open Sans", sans-serif;
 }
 nav li a{
     text-decoration: none;
 }
-
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 51px;
+}
+.banner-content{
+    max-width: 580px;
+    max-height: 348px;
+}
+.banner-greetings{
+    color: rgba(71, 71, 71, 1);
+    font-family:"Open Sans", sans-serif;
+    font-style: SemiBold;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-title{
+    color: rgba(24, 24, 24, 1);
+    font-family: "Dancing Script", cursive;
+    font-style: Bold;
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 105px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-description{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-profile-pic{
+    width: 560px;
+    height: 670px;
+}
